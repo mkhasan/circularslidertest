@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularBar">
+        <attr name="start_angle" format="float" />
+        <attr name="end_angle" format="float" />
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="arc_color" format="color" />
+        <attr name="arc_dash_size" format="dimension" />
+        <attr name="line_cap" format="enum">
+            <enum name="BUTT" value="0"/>
+            <enum name="ROUND" value="1"/>
+            <enum name="SQUARE" value="2"/>
+        </attr>
+        <attr name="touch_extension" format="dimension"/>
+    </declare-styleable>
+
+</resources>

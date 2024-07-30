@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:orientation="vertical"
+    android:gravity="top|center_horizontal"
+    android:background="#888888"
+    tools:context=".MainActivity">
+
+
+
+
+    <com.lightweight.lightweightrangeslider.GLSurface.ShapeGLSurfaceView
+        android:id="@+id/circular_bar_range"
+        android:layout_width="@dimen/circular_range_bar_width"
+        android:layout_height="@dimen/circular_range_bar_width"
+        android:padding="@dimen/slider_padding"
+        app:arc_color="#BAFD4F"
+        app:arc_dash_size="@dimen/border_thickness"
+        app:border_color="@color/default_border_color"
+        app:border_thickness="@dimen/border_thickness"
+        app:end_angle="145"
+        app:start_angle="@integer/start_angle"
+        app:touch_extension = "50dp"
+        android:background="@android:color/black"
+        app:line_cap="ROUND"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="100dp"/>
+
+    <com.lightweight.circularbarrange.CircularBarRangeOriginal
+        android:id="@+id/circular_bar_range_ori"
+        android:layout_width="@dimen/circular_range_bar_width"
+        android:layout_height="@dimen/circular_range_bar_width"
+        android:padding="@dimen/slider_padding"
+        app:arc_color="#BAFD4F"
+        app:arc_dash_size="@dimen/border_thickness"
+        app:border_color="@color/default_border_color"
+        app:border_thickness="@dimen/border_thickness"
+        app:end_angle="145"
+        app:start_angle="@integer/start_angle"
+        app:touch_extension = "50dp"
+        android:background="@android:color/black"
+        app:line_cap="ROUND"/>
+
+
+</LinearLayout>

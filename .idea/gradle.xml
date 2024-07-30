@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$USER_HOME$/extension/MyProjects/root_E_by_m_weight/circularslidertest" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/extension/MyProjects/root_E_by_m_weight/circularslidertest" />
+            <option value="$USER_HOME$/extension/MyProjects/root_E_by_m_weight/circularslidertest/app" />
+            <option value="$USER_HOME$/extension/MyProjects/root_E_by_m_weight/circularslidertest/circularbarrange" />
+            <option value="$USER_HOME$/extension/MyProjects/root_E_by_m_weight/circularslidertest/circularbarrange_original" />
+            <option value="$USER_HOME$/extension/MyProjects/root_E_by_m_weight/circularslidertest/lightweightrangeslider" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
